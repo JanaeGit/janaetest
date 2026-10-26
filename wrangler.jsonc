@@ -2,13 +2,6 @@
   "name": "tropic-west-booking",
   "main": "src/index.js",
   "compatibility_date": "2026-10-01",
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "tropic-west-appointments",
-      "database_id": "REPLACE_WITH_ACTUAL_D1_DATABASE_ID"
-    }
-  ],
   "vars": {
     "PUBLIC_ORIGIN": "https://www.tropicwesthealthclinic.com"
   }
