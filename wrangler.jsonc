@@ -4,5 +4,12 @@
   "compatibility_date": "2026-10-01",
   "vars": {
     "PUBLIC_ORIGIN": "https://www.tropicwesthealthclinic.com"
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tropic-west-appointments",
+      "database_id": "31b930bb-bcdb-4f57-9c81-a955291bf083"
+    }
+  ]
 }
