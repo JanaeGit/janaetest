@@ -6,7 +6,8 @@
     "PUBLIC_ORIGIN": "https://www.tropicwesthealthclinic.com",
     "CLINIC_NOTIFICATION_TO": "nurse@tropicwesthealth.com",
     "CLINIC_NOTIFICATION_CC": "garinejanae@gmail.com",
-    "CLINIC_NOTIFY_URL": "https://script.google.com/macros/s/AKfycbx-E0FAM7N4Q0V5xeV8wYMywpfHGmb4RvBP_dZIIfsPgWuLXj9qZkG8UahbK-Ql0YYv/exec"
+    "CLINIC_NOTIFY_URL": "https://script.google.com/macros/s/AKfycbx-E0FAM7N4Q0V5xeV8wYMywpfHGmb4RvBP_dZIIfsPgWuLXj9qZkG8UahbK-Ql0YYv/exec",
+    "PREVIEW_ORIGIN": "https://tropicwesthealthf196da3d4-c438e70327a2a.webflow.io"
   },
   "d1_databases": [
     {
