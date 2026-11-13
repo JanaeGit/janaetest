@@ -15,10 +15,11 @@ function doPost(e) {
     var ref = String(data.id);
     var date = String(data.date), time=String(data.time), service=String(data.service);
     var name=String(data.name), email=String(data.email), phone=String(data.phone||"");
+    var notes=String(data.additionalNotes||"").trim().slice(0,1000);
     var clinicBody = "A Tropic West Health appointment has been confirmed.\n\n"+
       "Booking reference: "+ref+"\nPatient: "+name+"\nEmail: "+email+
       "\nPhone: "+phone+"\nService: "+service+"\nDate: "+date+
-      "\nTime: "+time+" Eastern\n\nThis is an automated confirmation.";
+      "\nTime: "+time+" Eastern"+(notes?"\nAdditional notes: "+notes:"")+"\n\nThis is an automated confirmation.";
     var patientBody = "Hello "+name+",\n\nYour Tropic West Health appointment is confirmed.\n\n"+
       "Service: "+service+"\nDate: "+date+"\nTime: "+time+" Eastern\n"+
       "Booking reference: "+ref+"\n\nFor changes, call (727) 465-6021.\n\nTropic West Health";
