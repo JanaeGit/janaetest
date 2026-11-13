@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS appointments (
  name TEXT NOT NULL,
  email TEXT NOT NULL,
  phone TEXT NOT NULL,
+ notes TEXT NOT NULL DEFAULT '',
  status TEXT NOT NULL DEFAULT 'confirmed',
  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
