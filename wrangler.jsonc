@@ -3,11 +3,12 @@
   "main": "src/index.js",
   "compatibility_date": "2026-10-01",
   "vars": {
-    "PUBLIC_ORIGIN": "https://www.tropicwesthealthclinic.com",
+    "PUBLIC_ORIGIN": "https://www.tropicwesthealth.com",
     "CLINIC_NOTIFICATION_TO": "nurse@tropicwesthealth.com",
     "CLINIC_NOTIFICATION_CC": "garinejanae@gmail.com",
     "CLINIC_NOTIFY_URL": "https://script.google.com/macros/s/AKfycbyZS4yTErpNaqpi1QxdKShBX6lrbh-mc7XWJ4PCpVSCN12U7B86ROTl3fKrHNezgwESCA/exec",
-    "PREVIEW_ORIGIN": "https://tropicwesthealthf196da3d4-c438e70327a2a.webflow.io"
+    "PREVIEW_ORIGIN": "https://tropicwesthealthf196da3d4-c438e70327a2a.webflow.io",
+    "SECONDARY_PUBLIC_ORIGIN": "https://www.tropicwesthealthclinic.com"
   },
   "d1_databases": [
     {
